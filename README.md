@@ -27,7 +27,7 @@
 1. Список городов можно получить так:
 
     ```python3
-    f = open('cities.txt')
+    f = open('cities.txt', 'r', encoding='utf-8')
     cities_list = [line.strip().lower() for line in f]
     f.close()
     ```
